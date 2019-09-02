@@ -1,0 +1,28 @@
+﻿.notification {
+    box-shadow: rgba(0,0,0,0.3) 2px 2px 15px;
+}
+.normal {
+    z-index: 9999;
+    width: 250px;
+    position: absolute;
+    right: 10px;
+    top: -250px;
+}
+
+.mounted {
+    z-index: 9999;
+    width: 250px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transition: all 2s ease;
+}
+
+.unmounted {
+    position: absolute;
+    z-index: 9999;
+    width: 250px;
+    right: 10px;
+    top: -250px;
+    transition: all 2s ease;
+}

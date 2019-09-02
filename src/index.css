@@ -1,0 +1,12 @@
+﻿body {
+    background: gainsboro;
+}
+
+.ui.table td, .ui.table thead th{
+    padding: .227777em .77458em;
+}
+
+
+.ui.table {
+    box-shadow: 0px 0px 7px #808080;
+}
